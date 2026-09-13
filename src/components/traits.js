@@ -20,7 +20,7 @@ export const TRAITS = [
     body: "I'm still figuring things out. I change my mind. I have moments when I doubt myself, when I forget my journey is mine and not anyone else's. But I'm learning to be kinder to myself — learning that growth doesn't always look dramatic. Sometimes it's simply trying again, or choosing to start over, or surviving a hard season and still finding the strength to dream about the next one.",
   },
   {
-    title: 'Soft-Hearted',
+    title: 'Soft Hearted',
     body: 'I care deeply about the people I love. I remember little things. I love making people feel special, and I find so much joy in creating things that become memories. Ordinary moments can become some of the most beautiful ones, shared with the right people.',
   },
   {
