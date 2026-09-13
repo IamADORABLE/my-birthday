@@ -38,7 +38,7 @@ export default function CountdownPage({ target, name, onComplete }) {
           marginTop: 14, fontSize: 'clamp(1rem, 2.4vw, 1.3rem)', color: '#d9f2e3',
           maxWidth: 560,
         }}>
-          is almost here — mark your calendars for <strong style={{ color: '#fff' }}>{dateLabel}</strong> ✨
+          is almost here, mark your calendars for <strong style={{ color: '#fff' }}>{dateLabel}</strong> ✨
         </p>
       </motion.div>
 

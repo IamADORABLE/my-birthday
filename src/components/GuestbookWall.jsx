@@ -86,7 +86,7 @@ export default function GuestbookWall() {
               exit={{ opacity: 0 }}
               style={{ marginTop: 10, marginBottom: 0, color: '#9fe3c4', fontSize: '0.85rem', textAlign: 'center' }}
             >
-              Thank you — your wish was added 💛
+              Thank you, your wish was added 💛
             </motion.p>
           )}
         </AnimatePresence>
