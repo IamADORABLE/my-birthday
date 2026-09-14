@@ -38,14 +38,17 @@ export default function GuestbookWall() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Leave an anonymous birthday wish..."
-          maxLength={240}
-          rows={3}
+          maxLength={5000}
+          rows={7}
           style={{
             width: '100%', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,215,0,0.25)',
-            borderRadius: 10, padding: '10px 12px', color: '#f2f7f2', fontSize: '0.9rem', resize: 'none',
-            outline: 'none', fontFamily: 'inherit',
+            borderRadius: 10, padding: '10px 12px', color: '#f2f7f2', fontSize: '0.9rem', resize: 'vertical',
+            outline: 'none', fontFamily: 'inherit', minHeight: 140,
           }}
         />
+        <div style={{ marginTop: 4, textAlign: 'right', color: '#5fae82', fontSize: '0.75rem' }}>
+          {message.length}/5000
+        </div>
         <button
           type="submit"
           disabled={!message.trim() || submitting}
